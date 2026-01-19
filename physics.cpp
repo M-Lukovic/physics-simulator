@@ -14,7 +14,7 @@ int main() {
 
     double velocity, angle;
 
-    cout << "--- IOSYS PHYSICS ENGINE SIMULATOR ---" << endl;
+    cout << "--- PHYSICS ENGINE SIMULATOR ---" << endl;
     cout << "Enter initial velocity (m/s): ";
     cin >> velocity;
     cout << "Enter launch angle (degrees): ";
