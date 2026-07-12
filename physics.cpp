@@ -5,11 +5,11 @@
 using namespace std;
 
 /**
- * Racuna domet i putanju projektila (osnovna mehanika u igrama).
+ * Calculates the range and max height of a projectile (basic game physics).
  */
 
 int main() {
-    const double GRAVITY = 9.81; // Gravitaciona konstanta
+    const double GRAVITY = 9.81; // Gravitational constant
     const double PI = 3.14159265;
 
     double velocity, angle;
@@ -20,13 +20,13 @@ int main() {
     cout << "Enter launch angle (degrees): ";
     cin >> angle;
 
-    // Pretvaranje stepeni u radijane jer C++ math koristi radijane
+    // Convert degrees to radians as C++ math functions use radians
     double radian = angle * (PI / 180.0);
 
-    // Formula za domet: (v^2 * sin(2 * angle)) / g
+    // Range formula: (v^2 * sin(2 * angle)) / g
     double range = (pow(velocity, 2) * sin(2 * radian)) / GRAVITY;
 
-    // Formula za maksimalnu visinu: (v^2 * sin^2(angle)) / (2 * g)
+    // Maximum height formula: (v^2 * sin^2(angle)) / (2 * g)
     double height = (pow(velocity, 2) * pow(sin(radian), 2)) / (2 * GRAVITY);
 
     cout << fixed << setprecision(2);
