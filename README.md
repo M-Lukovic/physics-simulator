@@ -16,4 +16,4 @@ I created this to bridge the gap between theoretical physics and software implem
 3. Run: `./trajectory`
 
 ## What I Learned
-This project deepened my technical troubleshooting and problem-solving abilities. It reinforces my capability to handle data-driven logic, which is essential for technical infrastructure automation.
+This project deepened my technical troubleshooting and problem-solving abilities. It reinforces my capability to handle data-driven logic, which is essential for developing robust software solutions.
