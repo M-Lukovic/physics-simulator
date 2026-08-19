@@ -1,7 +1,7 @@
 # Physics Trajectory Simulator
 
 ## About the Project
-A computational tool built in C++ designed to calculate ballistic trajectories. It utilizes aerodynamic functions to determine the range and maximum height of a projectile based on user-defined inputs.
+An ideal projectile-motion calculator built in C++ that uses constant gravity to determine the range and maximum height from user-defined inputs. It does not model air resistance or aerodynamics.
 
 ## Why I Built This
 I created this to bridge the gap between theoretical physics and software implementation. It demonstrates my ability to translate mathematical formulas into functional C++ code.
